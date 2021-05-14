@@ -3,12 +3,12 @@ import { NavLink } from "react-router-dom";
 
 export default function Nav() {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        Navbar
-      </a>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <NavLink className="navbar-brand" to="/">
+        Nascar Directory 2.0
+      </NavLink>
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -16,10 +16,10 @@ export default function Nav() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav">
           <NavLink to="/" className="nav-link" activeClassName="active">
             Home
           </NavLink>
