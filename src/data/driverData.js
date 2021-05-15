@@ -5,6 +5,11 @@ let driverData = [
     team: "Penske",
     id: 1,
     img: "https://a.espncdn.com/combiner/i?img=/i/headshots/rpm/players/full/626.png",
+    seasonRecap:
+      "I'm baby affogato tote bag mumblecore organic bushwick bicycle rights ugh hoodie wayfarers blog cold-pressed. Franzen hella humblebrag lo-fi. Hell of cronut palo santo whatever selfies. Shabby chic brunch man bun iceland leggings, pinterest hella kitsch kinfolk taxidermy fashion axe sustainable health goth locavore vexillologist. Drinking vinegar godard cred PBR&B, ennui kickstarter bushwick copper mug prism glossier tumblr neutra ramps asymmetrical tilde. Yuccie asymmetrical keytar iPhone roof party, bicycle rights kickstarter man braid master cleanse adaptogen actually selfies freegan artisan. Fam locavore gochujang, meditation poke art party vegan.",
+    wins: "2",
+    topTen: "6",
+    points: "2020",
   },
   {
     name: "Kevin Harvick",
